@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  background: white url("../picture/76588.jpg");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  border-bottom: 1px solid white;
+}
+
+.header_logo img {
+  width: 100px;
+  height: 100px;
+  color: white;
+}
+
+.nav_block {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    transition: 0.5s linear;
+    margin-left: 50px;
+    font-size: 1.2rem;
+  }
+
+  a:first-child {
+    margin-left: 0;
+  }
+  .link_1:hover {
+    transition: 0.5s linear;
+    color: blue;
+  }
+  .link_2:hover {
+    transition: 0.5s linear;
+    color: blueviolet;
+  }
+  .link_3:hover {
+    transition: 0.5s linear;
+    color: greenyellow;
+  }
+  .link_4:hover {
+    transition: 0.5s linear;
+    color: green;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 750px;
+  padding-top: 175px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro_block {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.intro_title {
+  margin: 35px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 65px;
+  line-height: 1.1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form_content {
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 0 10px #fff;
+  height: 350px;
+  width: 280px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.form_text {
+  font-size: 21px;
+  margin: 40px 0 5px 0;
+  color: black;
+}
+
+.form_text_second {
+  font-size: 16px;
+  margin: 0;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.form_input {
+  background: #2A1A41;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin:15px auto 0 auto;
+
+  i {
+    font-size: 17px;
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  input {
+    flex: .7;
+    background: #f1f1f1;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+}
+
+.send {
+  border: none;
+  background: purple;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px 0 rgba( 102, 51, 153, 1 );
+  transition: .4s;
+  outline: none;
+}
+
+.send:hover {
+  box-shadow: 0 0 25px 5px rgba(191, 85, 236, 1);
+  outline: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+	background-color: rgba(39,35,76, 0.7);
+  padding: 15px 0;
+  font-family: "Poppins", sans-serif;
+}
+.footer-col{
+   width: 25%;
+   padding: 10px;
+}
+.link_fot_1{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-decoration: none;
+}
+
+.link_fot_2{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-decoration: none;
+}
+
+.link_fot_3{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+  text-decoration: none;
+}
+
+ .link_fot_1::before{
+	content: '';
+	position: absolute;
+	left:5;
+	bottom: -10px;
+	background-color:white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 90px;
+}
+
+.link_fot_2::before{
+	content: '';
+	position: absolute;
+	left:5;
+	bottom: -10px;
+	background-color:white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 45px;
+}
+
+.link_fot_3::before{
+	content: '';
+	position: absolute;
+	left:5;
+	bottom: -10px;
+	background-color:white;
+	height: 2px;
+	box-sizing: border-box;
+	width: 40px;
+}
+
+.footer {
+
+  &-list {
+    position: absolute;
+    right: 450px;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      color: white;
+      list-style: none;
+      padding: 2px;
+    }
+  }
+
+}
+
+
+
+
+
+
+
